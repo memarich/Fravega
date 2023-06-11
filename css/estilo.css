@@ -1,0 +1,73 @@
+/* Eliminamos los margenes y padding de todos los elementos para aplicar nuestros estilos */
+
+* {                  
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.producto {            
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.producto .img {
+    max-width: 100%;
+}
+
+.producto .nombre {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.producto .precio-anterior {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.producto .etiqueta {
+    font-size: 16px;
+    margin-left: 4px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 4px;
+}    
+
+.producto .envio {
+    color: green;
+    background-color: rgb(219, 252, 219);
+}
+
+.producto .descuento {
+    background-color: rgb(171, 1, 168);
+    color: #fff;
+}
+
+.producto .precio {    
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
